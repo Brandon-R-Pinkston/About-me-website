@@ -1,10 +1,14 @@
 .Top_C {
-    height: 304px;
+    height: 400px;
     border: solid 1px black;
     background-color: gray;
     position: relative;
     color:black ;
-   
+    margin: 0%;
+    background-image: url(sun\ img.png);
+    background-repeat: no-repeat;
+    background-position: 44% 33%;
+    background-size: 100px;
     
     
    
@@ -82,7 +86,7 @@ top: 70%;
 .hi4{
 
     position: absolute;
-    top: 34%;
+    top: 37%;
     left: 52%
 
 
@@ -92,7 +96,7 @@ top: 70%;
 .hi5{
 
      position:;
-     height: 200px;
+     height: 300px;
      left: 39%;
      bottom: 20%;
      
@@ -108,9 +112,11 @@ top: 70%;
 h1{
    
         
-    display: inline-block
-   
-    font-family: 'Sacramento', cursive; 
+    display: inline-block;
+    font-family: sacramento, cursive;
+    margin: 5px;
+    width: 300px;
+    font-size: 3em;
     
     
 }
@@ -127,7 +133,7 @@ h2,h3{
   
     position: absolute;
     left: 38%;
-    top: 40%;
+    top: 43%;
 
 }
 
@@ -169,4 +175,10 @@ h2,h3{
 
 
 
+}
+
+.sun{
+    position: absolute;
+    background-image: url("mountain.png");
+    left: 40%;
 }
