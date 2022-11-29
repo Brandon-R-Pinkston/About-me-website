@@ -4,7 +4,7 @@
     background-color: gray;
     position: relative;
     color:black ;
-    margin: 60px;
+    margin: 5px;
     background-image: url(sun\ img.png);
     background-repeat: no-repeat;
     background-position: 46% 63%;
@@ -175,8 +175,9 @@ h2{
 
 .profile_pic{
 
-    width:13em;
-    
+    width:14em;
+    padding-left: 200px;
+    padding-right: 200px;
     
 
 
