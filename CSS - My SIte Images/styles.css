@@ -1,5 +1,6 @@
 .Top_C {
-    height: 400px;
+    height: 464px;
+    width: auto;
     border: solid 1px black;
     background-color: gray;
     position: relative;
@@ -7,8 +8,8 @@
     margin: 0%;
     background-image: url(sun\ img.png);
     background-repeat: no-repeat;
-    background-position: 44% 33%;
-    background-size: 100px;
+    background-position: 44% 63%;
+    background-size: 80px;
     
     
    
@@ -45,6 +46,7 @@ body {
   text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
+  
   
   
   
@@ -86,7 +88,7 @@ top: 70%;
 .hi4{
 
     position: absolute;
-    top: 37%;
+    top: 67%;
     left: 52%
 
 
@@ -115,8 +117,8 @@ h1{
     display: inline-block;
     font-family: sacramento, cursive;
     margin: 5px;
-    width: 300px;
-    font-size: 3em;
+    width: auto;
+    font-size: 5.625em;
     
     
 }
@@ -133,7 +135,7 @@ h2,h3{
   
     position: absolute;
     left: 39%;
-    top: 43%;
+    top: 60%;
 
 }
 
@@ -168,7 +170,7 @@ h2,h3{
 
 .profile_pic{
 
-    width:200px;
+    width:13em;
     
     
 
@@ -181,4 +183,31 @@ h2,h3{
     position: absolute;
     background-image: url("mountain.png");
     left: 40%;
+    width: 100px;
+    
+}
+
+.skills_pic{
+display: inline;
+width: 10em;
+
+
+
+}
+
+.skills_pic2{
+
+width: 10em;
+
+
+
+}
+
+hr{
+
+border: 1px dotted white;
+border-width: .5em 0 0 0;
+width: 8%;
+
+
 }
