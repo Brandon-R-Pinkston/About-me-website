@@ -40,11 +40,11 @@
 }
 
 body {
-  height: 100;
-  width:100;
+ 
   text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
+  
   
   
   
@@ -60,7 +60,7 @@ span{
 
 p {
     
-    padding: 20px;
+   
 
 
 }
@@ -167,6 +167,7 @@ h2{
     position: absolute;
     top: 20%;
     left: 0;
+    
 
 
 
@@ -196,7 +197,7 @@ h2{
 .skills_pic{
 display: inline;
 width: 10em;
-
+float: left;
 
 
 }
@@ -204,6 +205,8 @@ width: 10em;
 .skills_pic2{
 
 width: 10em;
+float: right;
+margin: 30px;
 
 
 
@@ -214,6 +217,18 @@ hr{
 border: 1px dotted rgb(83, 96, 149);
 border-width: .5em 0 0 0;
 width: 8%;
+
+
+
+}
+
+.skill-row{
+
+width: 50%;
+text-align: left;
+margin: auto auto 100px auto;
+line-height: 2;
+
 
 
 
