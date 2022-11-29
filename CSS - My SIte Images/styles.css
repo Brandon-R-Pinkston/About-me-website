@@ -1,14 +1,13 @@
 .Top_C {
-    height: 464px;
+    height: 530px;
     width: auto;
-    border: solid 1px black;
     background-color: gray;
     position: relative;
     color:black ;
-    margin: 0%;
+    margin: 60px;
     background-image: url(sun\ img.png);
     background-repeat: no-repeat;
-    background-position: 44% 63%;
+    background-position: 46% 63%;
     background-size: 80px;
     
     
@@ -61,7 +60,7 @@ span{
 
 p {
     
-    
+    padding: 20px;
 
 
 }
@@ -119,14 +118,20 @@ h1{
     margin: 5px;
     width: auto;
     font-size: 5.625em;
+    color: #66BFBF;
+    line-height: 2;
+    
     
     
 }
 
 
-h2,h3{
+h2{
 
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
 
 }
 
@@ -134,7 +139,7 @@ h2,h3{
 .hi{
   
     position: absolute;
-    left: 39%;
+    left: 41%;
     top: 60%;
 
 }
@@ -205,9 +210,10 @@ width: 10em;
 
 hr{
 
-border: 1px dotted white;
+border: 1px dotted rgb(83, 96, 149);
 border-width: .5em 0 0 0;
 width: 8%;
+
 
 
 }
