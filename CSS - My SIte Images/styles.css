@@ -338,14 +338,14 @@ background-color: gray;
 
   }
 
-  iframe{
+iframe{
 
     position: relative;
 
+}
 
-  }
 
-  .ctme1{
+.ctme1{
 
     position: absolute;
     left: 78%;
