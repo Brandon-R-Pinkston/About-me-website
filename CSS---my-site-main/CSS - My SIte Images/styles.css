@@ -355,7 +355,11 @@ iframe{
   }
 
   .small{
-    width: 300px
+    position:relative;
+    left:25%;
+    text-align:left;
+    font-size:medium;
+    width:50%;
 
 
   }
